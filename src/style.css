@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  overflow: hidden;
+  /* background-image: url("../static/images/Main-BG.png"); */
+}
+
+.webgl {
+  position: absolute;
+  top: 0;
+  left: 0;
+  outline: none;
+}
+
+.DownloadBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  z-index: 1;
+  position: fixed;
+  bottom: 0;
+  padding-bottom: 24px;
+}
+
+h3 {
+  z-index: 1;
+  position: fixed;
+  text-align: center;
+  padding-top: 24px;
+  padding-left: 150px;
+  color: gainsboro;
+}
